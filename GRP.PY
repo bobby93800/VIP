@@ -20,7 +20,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 admin_id = {"6539807903"} #your admin id
 
 # Allowed Groups
-ALLOWED_GROUPS = {-1002461599613} #grp chat id
+ALLOWED_GROUPS = {-1001985887035} #grp chat id
 
 # Required Channels
 REQUIRED_CHANNELS = ["@gauravbhaihack"] #channel should be PUBLIC 
