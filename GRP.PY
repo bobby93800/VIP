@@ -13,7 +13,7 @@ import datetime
 import time
 
 # Bot Token
-BOT_TOKEN = "7503879369:AAHnKo3GyKPByRaEqG_UYyULARsprFdjfiM"
+BOT_TOKEN = "8112431515:AAFuESYE6F5lspagyZTNlECzZeJJUy70wy4"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Admin user IDs
